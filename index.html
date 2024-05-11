@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Project</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./sidebar.css">
+    <link rel="stylesheet" href="./bottom-section.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+    <nav>
+        <div class="header">
+            <div class="left-section">
+                <div class="music-logo">
+                    <div class="app-icon">
+                        <img class="music-icon" src="./header-icon/Music_logo-removebg-preview.png" alt="">
+                    </div>
+                    <div class="app-name">
+                        Music studio
+                    </div>
+                </div>
+            </div>
+            <div class="middle-section">
+                
+                    <input type="search" placeholder="Search Artists,Songs,Albums" class="input-search">
+                    <i class="fa-solid fa-magnifying-glass fa-beat fa-xl" style="color: #ffffff;"></i>
+                
+                    <!-- <img src="./header-icon/search.svg" alt="" class="search-icon"> -->
+            </div>
+            <div class="right-section">
+                <button class="logout-btn">Log out</button>
+                <i class="fa-solid fa-bell fa-shake fa-2xl" style="color: #ffffff;"></i>    
+                <!-- <img src="./header-icon/notifications.svg" alt="" class="bell-icon"> -->
+                <img src="./header-icon/8d13b854-7bd5-40be-9f98-4ea437624899.jpeg" alt="" class="virat-pic">
+                <i class="fa-solid fa-bars fa-flip fa-2xl" style="color: #ffffff;"></i>
+                <!-- <img src="./header-icon/hamburger-menu.svg" alt="" class="hamburger-menu"> -->
+            </div>
+        </div>
+    </nav>
+
+    <aside>
+        <div class="sidebar">
+            <div class="side-btns">
+                <button class="like-btn">Liked Songs</button>
+                <button class="playlist-btn">Playlist</button>
+            </div>
+            <div class="playlist-songs">
+                <div class="song">
+                    <div>
+                        <p class="song-number">01</p>   
+                    </div>
+                    <div>
+                        <img src="./songs-poster/1.jpeg" alt="" class="song-image">
+                    </div>
+                    <div>
+                        <p class="song-name">Aaj din chadheya</p>
+                        <p class="singer-name">Rahat Fateh Ali khan</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-heart like-icon"></i>
+                    </div>
+                </div>
+
+                <div class="song">
+                    <div>
+                        <p class="song-number">02</p>   
+                    </div>
+                    <div>
+                        <img src="./songs-poster/Desi-Boyz-Hindi-2011-20221212015731-500x500.jpg" alt="" class="song-image">
+                    </div>
+                    <div>
+                        <p class="song-name">Subah hone na de</p>
+                        <p class="singer-name">Mika singh,shefali alvares</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-heart like-icon"></i>
+                    </div>
+                </div>
+
+                <div class="song">
+                    <div class="wave">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                    <div>
+                        <img src="./songs-poster/Pal-Hindi-1999-20200406140426-500x500.jpg" alt="" class="song-image">
+                    </div>
+                    <div>
+                        <p class="song-name">Yaaron</p>
+                        <p class="singer-name">KK</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-heart" style="color: #ff0000;"></i>
+                    </div>
+                </div>
+                <div class="song">
+                    <div>
+                        <p class="song-number">04</p>   
+                    </div>
+                    <div>
+                        <img src="./songs-poster/1.jpeg" alt="" class="song-image">
+                    </div>
+                    <div>
+                        <p class="song-name">Aaj din chadheya</p>
+                        <p class="singer-name">Rahat Fateh Ali khan</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-heart like-icon"></i>
+                    </div>
+                </div>
+                <div class="song">
+                    <div>
+                        <p class="song-number">05</p>   
+                    </div>
+                    <div>
+                        <img src="./songs-poster/1.jpeg" alt="" class="song-image">
+                    </div>
+                    <div>
+                        <p class="song-name">Aaj din chadheya</p>
+                        <p class="singer-name">Rahat Fateh Ali khan</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-heart like-icon"></i>
+                    </div>
+                </div>
+                <div class="song">
+                    <div>
+                        <p class="song-number">06</p>   
+                    </div>
+                    <div>
+                        <img src="./songs-poster/1.jpeg" alt="" class="song-image">
+                    </div>
+                    <div>
+                        <p class="song-name">Aaj din chadheya</p>
+                        <p class="singer-name">Rahat Fateh Ali khan</p>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-heart like-icon"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main>
+        <div class="">
+            <div class="type-1">
+                <div>
+                <h1 class="heading">Latest English</h1>
+                </div>
+                <div class="arrows">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="latest-english-posters">
+                <div class="le-poster">
+                    <img src="./music-posters/1Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./music-posters/2Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./songs-poster/Akon_ft._eminem_smack_that.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./music-posters/4Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./music-posters/5Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./music-posters/6Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+            </div>
+            <div class="type-1">
+                <div class="heading">
+                <h1>Latest Hindi</h1>
+                </div>
+                <div class="arrows">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="latest-english-posters">
+                <div class="le-poster">
+                    <img src="./music-posters/1Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./music-posters/2Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./songs-poster/apna-bana-le.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./music-posters/4Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./songs-poster/namo-namo.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+                <div class="le-poster">
+                    <img src="./music-posters/6Eng.jpg" alt="" class="le-pic">
+                    <h3 class="pd-1">Radio Mix</h3>
+                    <p class="pd-2">Various Artists</p>
+                </div>
+            </div>
+            <div class="type-1">
+                <div class="heading">
+                <h1>Popular Artists</h1>
+                </div>
+                <div class="arrows">
+                <i class="fa-solid fa-arrow-left"></i>
+                <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="latest-english-posters">
+                <div class="le-poster">
+                    <img src="./artist-images/arijit-singh.jpg" alt="" class="artist-pic">
+                    <h3 class="pd-1">Arijit Singh</h3>
+                </div>
+                <div class="le-poster">
+                    <img src="./artist-images/alka-yagnik.jpg" alt="" class="artist-pic">
+                    <h3 class="pd-1">Alka Yagnik</h3>
+                </div>
+                <div class="le-poster">
+                    <img src="./artist-images/kk.jpg" alt="" class="artist-pic">
+                    <h3 class="pd-1">KK</h3>
+                </div>
+                <div class="le-poster">
+                    <img src="./artist-images/Shreya_Ghoshal.jpg" alt="" class="artist-pic">
+                    <h3 class="pd-1">Shreya Ghoshal</h3>
+                </div>
+                <div class="le-poster">
+                    <img src="./artist-images/Sonu_Nigam.jpg" alt="" class="artist-pic">
+                    <h3 class="pd-1">Sonu Nigam</h3>
+                </div>
+                <div class="le-poster">
+                    <img src="./artist-images/Himesh_Reshammiya.jpg" alt="" class="artist-pic">
+                    <h3 class="pd-1">Himesh</h3>
+                </div>
+            </div>
+            <div class="">
+                <div class="type-1">
+                    <div>
+                    <h1 class="heading">Best of 90s </h1>
+                    </div>
+                    <div class="arrows">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="latest-english-posters">
+                    <div class="le-poster">
+                        <img src="./music-posters/1Eng.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./music-posters/2Eng.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./songs-poster/Akon_ft._eminem_smack_that.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./music-posters/4Eng.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./music-posters/5Eng.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./music-posters/6Eng.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                </div>
+                <div class="type-1">
+                    <div class="heading">
+                    <h1>Bhajan & Spirituality songs</h1>
+                    </div>
+                    <div class="arrows">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="latest-english-posters">
+                    <div class="le-poster">
+                        <img src="./songs-poster/radhe-radhe.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radhe Radhe</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./music-posters/2Eng.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./songs-poster/jaikaal-mahakaal.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">jaikal mahakal</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./songs-poster/Shiv-Tandav.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Shiv tandav</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./songs-poster/namo-namo.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                    <div class="le-poster">
+                        <img src="./music-posters/6Eng.jpg" alt="" class="le-pic">
+                        <h3 class="pd-1">Radio Mix</h3>
+                        <p class="pd-2">Various Artists</p>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <div class="bottom-music-player">
+        <div class="bottom-section">
+            <div class="down-left">
+                    <div class="down-wave">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                </div>
+                <div>
+                    <img src="./songs-poster/Pal-Hindi-1999-20200406140426-500x500.jpg" alt="" class="down-song-image">
+                </div>
+                <div class="down-song-info">
+                    <div>
+                        <h3 class="playing-song-name">Yaaron</h3>
+                    </div>
+                    <div>
+                        <p class="playing-singer-name">KK</p>
+                    </div>
+                </div>
+            </div>
+            <div class="down-middle">
+                <div class="down-icons">
+                    <i class="fa-solid fa-shuffle" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-backward" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-equals fa-rotate-90" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-forward" style="color: #ffffff;"></i>
+                    <i class="fa-solid fa-repeat" style="color: #ffffff;"></i>
+                </div>
+                <div class="song-time-bar">
+                    <p class="song-time">1:03</p>
+                    <div class="music-length">
+                        <input type="range" min="0" max="100" value="60" step="5" class="a-input">
+                    </div>
+                    <p class="song-time">4:37</p>
+                </div>
+            </div>
+            <div class="down-right">
+                <i class="fa-solid fa-volume-high" style="color: #ffffff;"></i>
+                <input type="range" min="0" max="100" value="60" step="5" class="b-input">
+                <i class="fa-solid fa-share" style="color: #ffffff;"></i>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
